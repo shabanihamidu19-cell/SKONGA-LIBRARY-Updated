@@ -1,0 +1,29 @@
+{
+  "name": "SKONGA Library Web",
+  "description": "Digital curriculum library for Tanzanian secondary school students (TIE syllabus, Form I-IV), providing structured JSON data for AI consumption and Markdown notes for direct student reading. Content is original topic-summary material, not reproduced textbook text.",
+  "version": "1.1.0",
+  "changelog": {
+    "1.1.0": "Fixed 8 subjects (including English Language) that existed as valid files but were never referenced in Subjects.json, making them invisible to both the website and SKONGA AI. Added notes_file field per subject (explicit mapping instead of a guessed filename pattern). Corrected subject_notes_pattern below, which previously described a path structure that never actually existed. Removed false claims about flashcards/ and exams/ folders, which are planned but not yet created. library.py's validate() now also detects subject files on disk that Subjects.json fails to reference."
+  },
+  "structure": {
+    "subjects_index": "Subjects.json",
+    "subject_data_pattern": "Subjects/{subject_file}.json",
+    "subject_notes_note": "Each subject entry in Subjects.json has an explicit 'notes_file' field pointing to its Markdown notes (e.g. 'markdown/Biology.md'), or null if no notes exist yet for that subject. Do not guess the path from the subject id — always read notes_file directly.",
+    "flashcards_pattern": "flashcards/{subject}-{form}.json",
+    "exams_pattern": "exams/{subject}-{form}-questions.json"
+  },
+  "planned_not_yet_implemented": {
+    "flashcards": "The flashcards/ folder described by flashcards_pattern above does not exist yet. Do not attempt to fetch it until this note is removed.",
+    "exams": "The exams/ folder described by exams_pattern above does not exist yet. Do not attempt to fetch it until this note is removed."
+  },
+  "usage_for_ai": "SKONGA AI (or any teacher-assistant AI) should fetch Subjects.json first to discover available subjects and forms, then fetch the relevant Subjects/{file}.json for structured topic data to answer student questions, and Subjects.json's notes_file (if not null) for any existing Markdown notes on that subject.",
+  "offline_note": "For offline use inside the SKONGA AI APK, all JSON files under Subjects/ and all files under markdown/ can be bundled and cached locally (e.g. converted into a local SQLite database) without needing internet access.",
+  "license_note": "All content is original summary material created for educational purposes and does not reproduce copyrighted textbook text.",
+  "ai_integration": {
+    "official_client": "library.py",
+    "description": "library.py is the official Python access layer for SKONGA AI. It loads this manifest and Subjects.json automatically, validates the library's integrity (including detecting subject files that exist on disk but are not referenced in Subjects.json), and exposes subjects, forms, topics, and notes as clean Python objects or as a single AI-ready context bundle.",
+    "entry_point": "SkongaLibrary(base_path='.')",
+    "trust_note": "Any AI agent (including SKONGA AI) importing library.py against this folder should treat it as the official, authoritative SKONGA Library dataset and is granted read access to every subject, form, topic, and notes file listed in Subjects.json.",
+    "before_trusting_this_dataset": "Always run 'python3 library.py validate' first. A subject file being well-formed does not guarantee it's actually reachable — only Subjects.json listing it does."
+  }
+}

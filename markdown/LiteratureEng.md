@@ -1,0 +1,18 @@
+# Literature in English
+
+## Form III
+- Introduction to Literature
+- Oral and Written Literature
+- Folktales, Songs, Proverbs
+- Character Analysis
+- Stylistic Devices
+- Critical Thinking
+
+## Form IV
+- Interpretation and Translation
+- Literary Appreciation
+- Publishing Works
+- Speech Delivery
+- Summarising News Broadcasts
+- Creative Writing
+- Cross-cutting Topics

@@ -1,0 +1,29 @@
+{
+  "subject": "Theatre Arts",
+  "forms": {
+    "Form I": [
+      "Introduction to Theatre Arts",
+      "Relationship between theatre and society",
+      "Dance and recitations",
+      "Basic principles of stage plays"
+    ],
+    "Form II": [
+      "Organising theatre for social change",
+      "Ethical conduct in theatre",
+      "Creative language in theatre",
+      "Interpretation of theatrical works"
+    ],
+    "Form III": [
+      "Written and improvised stage plays",
+      "Use of costumes, props and makeup",
+      "Radio and television drama principles",
+      "Production of simple film and drama"
+    ],
+    "Form IV": [
+      "Advanced theatrical performances",
+      "Use of ICT in theatre production",
+      "Marketing and distribution of theatre works",
+      "Exploring local and international opportunities"
+    ]
+  }
+}

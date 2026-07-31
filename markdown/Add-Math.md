@@ -1,0 +1,17 @@
+# Additional Mathematics
+
+## Form III
+- Advanced Algebra
+- Rational Functions
+- Differentiation
+- Integration
+- Solids of Revolution
+- Set Theory
+- Locus
+
+## Form IV
+- Vectors in 3D
+- Statistics
+- Probability
+- Matrices
+- Applications in Business and Economics

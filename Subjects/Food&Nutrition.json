@@ -1,0 +1,30 @@
+{
+  "subject": "Food and Human Nutrition",
+  "forms": {
+    "Form I": [
+      "Introduction to Food and Human Nutrition",
+      "Relationship between Food and Human Nutrition with other subjects",
+      "Balanced meals and factors to consider",
+      "Kitchen safety and common accidents"
+    ],
+    "Form II": [
+      "Types, nutritive values and uses of pulses, nuts and oil seeds",
+      "Eating disorders",
+      "Methods of preparing pulses and nuts dishes",
+      "Types and uses of cereals"
+    ],
+    "Form III": [
+      "Methods of preparing cereal dishes",
+      "Raising agents and their application in cookery",
+      "Preparation of eggs, fish, meat, milk and milk products",
+      "Preparation of vegetables and fruits dishes"
+    ],
+    "Form IV": [
+      "Preparation of bread, cakes, biscuits and buns",
+      "Nutritional needs of different groups (children, elderly)",
+      "Convenience and leftover foods",
+      "Food preservation and storage technologies",
+      "Preparation of banquets and menu planning"
+    ]
+  }
+}

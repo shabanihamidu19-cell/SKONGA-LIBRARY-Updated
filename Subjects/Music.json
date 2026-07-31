@@ -1,0 +1,29 @@
+{
+  "subject": "Music",
+  "forms": {
+    "Form I": [
+      "Introduction to Music Concepts",
+      "Basic Music Theory (ABRSM Grade I)",
+      "Playing simple melodies and rhythms",
+      "Singing short songs individually and in groups"
+    ],
+    "Form II": [
+      "Reading and writing music (ABRSM Grade II)",
+      "Use of percussion instruments",
+      "Singing and performance practice",
+      "Introduction to studio equipment"
+    ],
+    "Form III": [
+      "Music Theory (ABRSM Grade III)",
+      "Composing short songs in harmony",
+      "Ethics and popular music culture",
+      "Music writing and sound processing projects"
+    ],
+    "Form IV": [
+      "Advanced Music Theory (ABRSM Grade IV)",
+      "Use of wind instruments (local and foreign)",
+      "Music production and business opportunities",
+      "Preparation for National Examination"
+    ]
+  }
+}

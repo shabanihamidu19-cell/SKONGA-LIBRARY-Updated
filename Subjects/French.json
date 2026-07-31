@@ -1,0 +1,29 @@
+{
+  "subject": "French Language",
+  "forms": {
+    "Form I": [
+      "Prononciation et intonation",
+      "Utilisation des signes de ponctuation",
+      "Décrire des objets familiers",
+      "Demander et donner des informations simples"
+    ],
+    "Form II": [
+      "Lecture et compréhension de textes variés",
+      "Résumé de messages écrits",
+      "Jeux de rôle sur des situations vécues",
+      "Communication orale et écrite dans divers contextes"
+    ],
+    "Form III": [
+      "Présentation d’informations lues",
+      "Rédaction de textes sur des sujets divers",
+      "Simulation de conversations",
+      "Analyse et composition de textes simples"
+    ],
+    "Form IV": [
+      "Communication efficace dans divers contextes",
+      "Rédaction de textes complexes",
+      "Interprétation de conversations",
+      "Préparation aux examens et projets pédagogiques"
+    ]
+  }
+}

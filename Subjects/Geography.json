@@ -1,0 +1,29 @@
+{
+  "subject": "Geography",
+  "forms": {
+    "Form I": [
+      "Introduction to Geography",
+      "The Earth and the Solar System",
+      "Weather and Climate",
+      "Map Reading and Interpretation"
+    ],
+    "Form II": [
+      "Landforms and Processes",
+      "Population and Settlement",
+      "Agriculture and Economic Activities",
+      "Transport and Communication"
+    ],
+    "Form III": [
+      "Natural Resources and Conservation",
+      "Industry and Trade",
+      "Regional Geography of Africa",
+      "Environmental Issues"
+    ],
+    "Form IV": [
+      "World Geography",
+      "Globalisation and Development",
+      "Fieldwork and Research Methods",
+      "Contemporary Issues in Geography"
+    ]
+  }
+}

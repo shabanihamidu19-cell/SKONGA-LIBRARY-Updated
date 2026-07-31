@@ -1,0 +1,29 @@
+{
+  "subject": "Textiles and Garment Construction",
+  "forms": {
+    "Form I": [
+      "Introduction to garment making",
+      "Professionalism and ethics in tailoring",
+      "Standard sewing tools and equipment",
+      "Basic garment making processes (stitches, seams, openings)"
+    ],
+    "Form II": [
+      "Preparation and folding of fabric",
+      "Body measurements and apron making",
+      "Joining garment sections (shirt, blouse, apron)",
+      "Sketching outfits and wardrobe planning"
+    ],
+    "Form III": [
+      "Structural and functional garment processes (collars, cuffs, sleeves, pockets)",
+      "Decorative garment processes (embroidery, applique, trimmings)",
+      "Garment making for children",
+      "Use of style, color and line in fabrics"
+    ],
+    "Form IV": [
+      "Advanced garment construction",
+      "Wardrobe planning and fashion design",
+      "Care for clothes and stain removal",
+      "Preparation for National Examination"
+    ]
+  }
+}

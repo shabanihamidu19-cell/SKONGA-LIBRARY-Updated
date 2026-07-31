@@ -1,0 +1,29 @@
+{
+  "subject": "English Language",
+  "forms": {
+    "Form I": [
+      "Listening and answering questions",
+      "Pronunciation practice",
+      "Vocabulary development",
+      "Basic grammar and sentence construction"
+    ],
+    "Form II": [
+      "Reading comprehension",
+      "Roleplay and dialogues",
+      "Writing short passages",
+      "Debates and discussions"
+    ],
+    "Form III": [
+      "Summarising oral and written texts",
+      "Letter writing (formal and informal)",
+      "Story composition",
+      "Paraphrasing and translation principles"
+    ],
+    "Form IV": [
+      "Speech delivery (planned and impromptu)",
+      "Critical analysis of literary texts",
+      "Publishing poems and short stories",
+      "Preparation for national examinations"
+    ]
+  }
+}

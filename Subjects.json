@@ -1,0 +1,346 @@
+[
+  {
+    "id": "additional-mathematics",
+    "name": "Additional Mathematics",
+    "icon": "📐",
+    "forms": [
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/Additional-Math.json",
+    "notes_file": "markdown/Add-Math.md"
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "icon": "🌾",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 15,
+    "file": "Subjects/Agric.json",
+    "notes_file": "markdown/Agriculture.md"
+  },
+  {
+    "id": "arabic-language",
+    "name": "Arabic Language",
+    "icon": "🔤",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/ArabicLang.json",
+    "notes_file": null
+  },
+  {
+    "id": "bible-knowledge",
+    "name": "Bible Knowledge",
+    "icon": "📖",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/BIBLE.json",
+    "notes_file": "markdown/Bible.md"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "🧬",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/Bio.json",
+    "notes_file": "markdown/Biology.md"
+  },
+  {
+    "id": "business-studies",
+    "name": "Business Studies",
+    "icon": "💼",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/Business.json",
+    "notes_file": "markdown/Business.md"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "🧪",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/Chemistry.json",
+    "notes_file": "markdown/Chemistry.md"
+  },
+  {
+    "id": "chinese-language",
+    "name": "Chinese Language",
+    "icon": "🈶",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 20,
+    "file": "Subjects/Chinese.json",
+    "notes_file": "markdown/Chinese.md"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "icon": "💻",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/Computer.json",
+    "notes_file": "markdown/Computer.md"
+  },
+  {
+    "id": "english-language",
+    "name": "English Language",
+    "icon": "🔤",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/EnglishLang.json",
+    "notes_file": "markdown/EnglishLang.md"
+  },
+  {
+    "id": "fasihi-kiswahili",
+    "name": "Fasihi ya Kiswahili",
+    "icon": "📗",
+    "forms": [
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 10,
+    "file": "Subjects/Fasihi-Kiswahili.json",
+    "notes_file": "markdown/Fasihi-kiswahili.md"
+  },
+  {
+    "id": "fine-art",
+    "name": "Fine Art",
+    "icon": "🎨",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/FineArt.json",
+    "notes_file": "markdown/FineArt.md"
+  },
+  {
+    "id": "food-and-nutrition",
+    "name": "Food and Human Nutrition",
+    "icon": "🍲",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 17,
+    "file": "Subjects/Food&Nutrition.json",
+    "notes_file": null
+  },
+  {
+    "id": "french-language",
+    "name": "French Language",
+    "icon": "🔤",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/French.json",
+    "notes_file": null
+  },
+  {
+    "id": "geography",
+    "name": "Geography",
+    "icon": "🌍",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/Geography.json",
+    "notes_file": "markdown/Geo.md"
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "icon": "🏛️",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 12,
+    "file": "Subjects/History.json",
+    "notes_file": "markdown/History.md"
+  },
+  {
+    "id": "islamic-studies",
+    "name": "Islamic Studies",
+    "icon": "🕌",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 20,
+    "file": "Subjects/EDK.json",
+    "notes_file": "markdown/EDK.md"
+  },
+  {
+    "id": "kiswahili",
+    "name": "Kiswahili",
+    "icon": "🗣️",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/SW.json",
+    "notes_file": "markdown/Kisw.md"
+  },
+  {
+    "id": "literature-in-english",
+    "name": "Literature in English",
+    "icon": "📚",
+    "forms": [
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 13,
+    "file": "Subjects/LitENGLISH.json",
+    "notes_file": "markdown/LiteratureEng.md"
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "icon": "➗",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 21,
+    "file": "Subjects/math.json",
+    "notes_file": "markdown/Maths.md"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "icon": "🎵",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/Music.json",
+    "notes_file": null
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "⚛️",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 18,
+    "file": "Subjects/physics.json",
+    "notes_file": "markdown/Physics.md"
+  },
+  {
+    "id": "sport-studies",
+    "name": "Sport Studies",
+    "icon": "⚽",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/SportStudies.json",
+    "notes_file": null
+  },
+  {
+    "id": "textiles-and-garment-construction",
+    "name": "Textiles and Garment Construction",
+    "icon": "🧵",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/Textiles&Garment-Construction.json",
+    "notes_file": null
+  },
+  {
+    "id": "theatre-arts",
+    "name": "Theatre Arts",
+    "icon": "🎭",
+    "forms": [
+      "Form I",
+      "Form II",
+      "Form III",
+      "Form IV"
+    ],
+    "topics": 16,
+    "file": "Subjects/Theatre-art.json",
+    "notes_file": null
+  }
+]

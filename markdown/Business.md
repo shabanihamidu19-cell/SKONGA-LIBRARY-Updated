@@ -1,0 +1,21 @@
+# Business Studies
+
+## Form I
+- Introduction to Business
+- Forms of Business Ownership
+- Business Environment
+
+## Form II
+- Entrepreneurship
+- Marketing Basics
+- Accounting Principles
+
+## Form III
+- Business Finance
+- Human Resource Management
+- Production and Operations
+
+## Form IV
+- International Trade
+- Business Law
+- Business Ethics and Social Responsibility

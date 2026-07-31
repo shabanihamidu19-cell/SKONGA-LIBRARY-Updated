@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKONGA Library</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/Library.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900 pb-20 md:pb-0">
+  <nav class="surface bg-white border-b border-zinc-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-3xl flex items-center justify-center text-white text-2xl font-bold">📓📒📗📖📚</div>
+        <div class="flex items-baseline">
+          <span class="heading-font text-3xl font-semibold tracking-tighter">SKONGA</span>
+          <span class="text-emerald-600 font-semibold ml-1">Library</span>
+        </div>
+      </div>
+
+      <div class="hidden md:flex items-center gap-9 text-sm font-medium">
+        <button onclick="navigateTo('home')" class="text-zinc-600 hover:text-emerald-700">Home</button>
+        <button onclick="navigateTo('subjects')" class="text-zinc-600 hover:text-emerald-700">Subjects</button>
+        <button onclick="showSearch()" class="text-zinc-600 hover:text-emerald-700">Search</button>
+        <button onclick="navigateTo('about')" class="text-zinc-600 hover:text-emerald-700">About</button>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button onclick="showSearch()" class="hidden md:flex items-center bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl px-5 py-3 text-sm w-80 transition-all">
+          <i class="fa-solid fa-magnifying-glass text-zinc-400"></i>
+          <span class="ml-3 text-zinc-400">Search curriculum...</span>
+        </button>
+        <button onclick="toggleDarkMode()" class="w-10 h-10 flex items-center justify-center rounded-2xl hover:bg-zinc-100 transition-colors">
+          <i class="fa-solid fa-moon text-zinc-500"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 surface bg-white border-t border-zinc-200 z-50 py-2 shadow">
+    <div class="flex justify-around text-[10px] font-medium text-zinc-500">
+      <button onclick="navigateTo('home')" class="flex flex-col items-center py-1 px-3 text-zinc-500 active:text-emerald-600"><i class="fa-solid fa-house text-xl mb-0.5"></i><span>Home</span></button>
+      <button onclick="navigateTo('subjects')" class="flex flex-col items-center py-1 px-3 text-zinc-500 active:text-emerald-600"><i class="fa-solid fa-book text-xl mb-0.5"></i><span>Subjects</span></button>
+      <button onclick="showSearch()" class="flex flex-col items-center py-1 px-3 text-zinc-500 active:text-emerald-600"><i class="fa-solid fa-magnifying-glass text-xl mb-0.5"></i><span>Search</span></button>
+      <button onclick="navigateTo('about')" class="flex flex-col items-center py-1 px-3 text-zinc-500 active:text-emerald-600"><i class="fa-solid fa-circle-info text-xl mb-0.5"></i><span>About</span></button>
+    </div>
+  </nav>
+
+  <div id="main-content">
+    <section id="home-page">
+      <div class="bg-zinc-950 text-white">
+        <div class="max-w-6xl mx-auto px-6 pt-24 pb-20 text-center">
+          <div class="inline-flex items-center gap-2 px-5 py-2 bg-white/10 rounded-3xl text-sm mb-6 glass-card">
+            <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+            Version 1.0098
+          </div>
+          <h1 class="heading-font text-5xl md:text-7xl font-semibold tracking-tighter leading-none mb-6">
+            SKONGA LIBRARY(Structured Knowledge  for SKONGA AI)<br>
+            <span class="text-emerald-400">///////////////////////////////////////////////////////</span>
+          </h1>
+          <p class="max-w-2xl mx-auto text-xl text-zinc-400">A clean JSON-first curriculum library for browsing SKONGA subjects, forms, and topics.</p>
+          <div class="max-w-xl mx-auto mt-14 bg-white rounded-3xl p-2 shadow-2xl shadow-black/30">
+            <div class="flex items-center bg-zinc-100 rounded-3xl px-7 py-6">
+              <i class="fa-solid fa-search text-3xl text-zinc-400"></i>
+              <input id="hero-search-input" class="flex-1 ml-6 bg-transparent text-xl text-zinc-900 placeholder:text-zinc-400 focus:outline-none" placeholder="Search any topic or subject">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-6 -mt-8 relative z-10">
+        <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-6"></div>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-6 py-20">
+        <div class="flex items-end justify-between mb-10 gap-4">
+          <div>
+            <span class="uppercase tracking-[2px] text-xs font-mono text-emerald-600">Curriculum</span>
+            <h2 class="heading-font text-4xl font-semibold tracking-tight">Explore Subjects</h2>
+          </div>
+          <button onclick="navigateTo('subjects')" class="flex items-center gap-3 text-emerald-700 hover:text-emerald-800 font-medium">
+            All Subjects <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div id="featured-subjects" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+      </div>
+    </section>
+
+    <section id="subjects-page" class="hidden py-16 max-w-6xl mx-auto px-6">
+      <h1 class="heading-font text-5xl font-semibold tracking-tight mb-3">All Subjects</h1>
+      <p class="muted text-zinc-500 mb-12">Tanzania Institute of Education aligned subject index</p>
+      <div id="all-subjects-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </section>
+
+    <section id="subject-detail" class="hidden py-12 max-w-5xl mx-auto px-6">
+      <button onclick="navigateTo('subjects')" class="flex items-center gap-2 text-zinc-500 hover:text-black mb-8">
+        <i class="fa-solid fa-chevron-left"></i>
+        <span>Back</span>
+      </button>
+      <div class="flex items-center gap-6 mb-12">
+        <div id="detail-icon" class="text-7xl md:text-8xl"></div>
+        <div>
+          <h1 id="detail-name" class="heading-font text-4xl md:text-5xl font-semibold"></h1>
+          <p id="detail-meta" class="text-emerald-600 text-lg"></p>
+        </div>
+      </div>
+      <div id="forms-container" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+
+      <div id="notes-section" class="hidden mt-12">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="heading-font text-2xl font-semibold">Study Notes</h2>
+        </div>
+        <div id="notes-content" class="surface bg-white border border-zinc-200 rounded-3xl p-8 md:p-10 shadow-sm prose max-w-none"></div>
+      </div>
+    </section>
+
+    <section id="topic-view" class="hidden max-w-4xl mx-auto px-6 py-12">
+      <div id="topic-breadcrumb" class="flex flex-wrap items-center gap-2 text-sm text-zinc-500 mb-8"></div>
+      <div id="topic-header" class="mb-12"></div>
+      <article id="topic-body" class="prose prose-zinc max-w-none prose-headings:font-semibold prose-headings:tracking-tight leading-relaxed text-lg"></article>
+      <div class="mt-16 flex flex-col md:flex-row gap-4">
+        <button onclick="navigateTo('subjects')" class="flex-1 py-4 bg-white text-zinc-700 border border-zinc-300 rounded-3xl font-medium hover:bg-zinc-50">Browse More Topics</button>
+        <button onclick="downloadCurrentTopic()" class="flex-1 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-3xl font-medium flex items-center justify-center gap-3">
+          <i class="fa-solid fa-download"></i>
+          <span>Download JSON</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about-page" class="hidden py-16 max-w-4xl mx-auto px-6">
+      <div class="surface bg-white border border-zinc-200 rounded-[2rem] p-8 md:p-10 shadow-sm prose prose-zinc max-w-none">
+        <h1 class="heading-font">About SKONGA Library</h1>
+        <p>This repaired build restores navigation, subject loading, search, topic browsing, and JSON export using the files already present in the archive.</p>
+        <ul>
+          <li>Reads <code>subjects.json</code> as the main index</li>
+          <li>Loads per-subject data from the <code>Subjects/</code> folder</li>
+          <li>Works offline with bundled JSON files</li>
+          <li>Ready for future markdown notes, quizzes, and flashcards</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div id="search-overlay" class="hidden fixed inset-0 bg-black/70 z-[999] flex items-start justify-center pt-20 px-4">
+    <div class="w-full max-w-2xl surface bg-white rounded-3xl shadow-xl overflow-hidden">
+      <div class="p-5 border-b border-zinc-200 flex items-center gap-4">
+        <i class="fa-solid fa-magnifying-glass text-zinc-400"></i>
+        <input id="search-input" type="text" class="flex-1 outline-none text-xl placeholder-zinc-400 bg-transparent" placeholder="Search topics, subjects..." onkeyup="if(event.key==='Enter') executeSearch()">
+        <button onclick="hideSearchOverlay()" class="text-zinc-400 text-sm">Cancel</button>
+      </div>
+      <div id="search-results-container" class="max-h-[65vh] overflow-auto p-3">
+        <div class="px-6 py-12 text-center text-zinc-400">Type a subject or topic name.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/library.js"></script>
+</body>
+</html>

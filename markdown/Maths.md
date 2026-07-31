@@ -1,0 +1,30 @@
+# Mathematics
+
+## Form I
+- Numbers and Rational Numbers
+- Ratios and Proportions
+- Approximations
+- Basic Algebra
+
+## Form II
+- Geometry
+- Quadratic Equations
+- Exponents
+- Radicals
+- Sets
+- Statistics
+
+## Form III
+- Functions and Relations
+- Linear Programming
+- Sequences and Series
+- Compound Interest
+- Circle Theorems
+- Matrices
+- Coordinate Geometry
+
+## Form IV
+- Trigonometry
+- Probability
+- Advanced Statistics
+- Revision Topics

@@ -1,0 +1,21 @@
+# Computer Science
+
+## Form I
+- Introduction to Computers
+- Hardware and Software
+- Basic Programming Concepts
+
+## Form II
+- Data Representation
+- Operating Systems
+- Networking Basics
+
+## Form III
+- Database Management
+- Web Development Basics
+- Algorithms and Problem Solving
+
+## Form IV
+- Advanced Programming
+- System Development
+- Cybersecurity and Ethics

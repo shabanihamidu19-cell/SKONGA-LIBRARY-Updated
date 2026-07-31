@@ -1,0 +1,29 @@
+{
+  "subject": "Sport Studies",
+  "forms": {
+    "Form I": [
+      "Introduction to Sports and Physical Education",
+      "Relationship between sports, games, play and exercise",
+      "Warm up and cool down exercises",
+      "Basic safety principles in sports"
+    ],
+    "Form II": [
+      "Rules and safety principles in football and track events",
+      "Rules and safety principles in basketball and table tennis",
+      "Optional sports: tennis or badminton",
+      "Risk behaviours in sports (doping, substance abuse)"
+    ],
+    "Form III": [
+      "Rules and safety principles in volleyball and handball",
+      "Optional sports: cricket or hockey",
+      "Nutrition and health in sports",
+      "First aid and injury management"
+    ],
+    "Form IV": [
+      "Advanced sports disciplines",
+      "Sports ethics and professionalism",
+      "Preparation for National Examination",
+      "Integration of ICT in sports training"
+    ]
+  }
+}

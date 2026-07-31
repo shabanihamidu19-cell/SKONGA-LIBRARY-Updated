@@ -1,0 +1,9 @@
+{
+  "subject": "Chinese Language",
+  "forms": {
+    "Form I": ["Pronunciation and Tones", "Basic Vocabulary", "Stroke Order of Characters", "Simple Sentences", "Greetings"],
+    "Form II": ["Listening and Pronunciation", "Dialogues", "Reading Comprehension", "Roleplay", "Vocabulary Expansion"],
+    "Form III": ["Intermediate Grammar", "Story Writing", "Listening Comprehension", "Translation and Interpretation", "Vocabulary in Context"],
+    "Form IV": ["Advanced Grammar", "Complex Sentences", "Conversation with Native Speakers", "Creative Writing", "Cross-cutting Topics"]
+  }
+}

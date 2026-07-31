@@ -1,0 +1,29 @@
+{
+  "subject": "Arabic Language",
+  "forms": {
+    "Form I": [
+      "Listening comprehension of short texts",
+      "Basic vocabulary acquisition",
+      "Oral communication in familiar contexts",
+      "Reading and summarising simple texts"
+    ],
+    "Form II": [
+      "Expanding vocabulary through dialogues",
+      "Writing short passages",
+      "Roleplay in everyday situations",
+      "Reading comprehension of varied texts"
+    ],
+    "Form III": [
+      "Advanced oral communication",
+      "Formal and informal writing",
+      "Translation of simple texts",
+      "Editing and proofreading exercises"
+    ],
+    "Form IV": [
+      "Advanced reading and comprehension of complex texts",
+      "Formal communication (meetings, debates, conferences)",
+      "Translation and interpretation principles",
+      "Preparation for National Examination"
+    ]
+  }
+}

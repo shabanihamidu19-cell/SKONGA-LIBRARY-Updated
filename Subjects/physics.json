@@ -1,0 +1,9 @@
+{
+  "subject": "Physics",
+  "forms": {
+    "Form I": ["Concept of Physics", "Physical Quantities and SI Units", "Linear Motion", "Force and Energy"],
+    "Form II": ["Newton’s Laws", "Work, Energy and Power", "Heat and Thermodynamics", "Light and Sound"],
+    "Form III": ["Electricity", "Magnetism", "Electromagnetism", "Waves", "Radioactivity"],
+    "Form IV": ["Modern Physics", "Nuclear Physics", "Alternating Current", "Optics", "Energy Resources"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "subject": "Fine Art",
+  "forms": {
+    "Form I": ["Introduction to Art", "Drawing Basics", "Elements of Design"],
+    "Form II": ["Painting Techniques", "Sculpture Basics", "Art Appreciation"],
+    "Form III": ["Advanced Drawing", "Ceramics and Crafts", "History of Art"],
+    "Form IV": ["Modern Art", "African Art Studies", "Portfolio Development"]
+  }
+}
